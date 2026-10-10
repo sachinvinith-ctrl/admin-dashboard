@@ -24,7 +24,7 @@ grid-template-columns: 1fr 5fr;
 
 .container div {
 
-border: 0px solid pink;
+
 
 }
 
@@ -102,7 +102,7 @@ align-items: center;
 
 .search-bar > img {
 
-width: 25px;
+width: 30px;
 height: 25px;
 
 }
@@ -136,8 +136,8 @@ justify-self: end;
 
 img + img {
 
-width: 35px !important;
-height: 35px !important;
+width: 40px !important;
+height: 40px !important;
 border-radius: 50px;
 margin-left: 25px;
 
@@ -151,6 +151,78 @@ align-self: center;
 font-weight: 700;
 
 }
+
+.profile-bar {
+
+display: grid;
+grid-template-columns: auto 3fr 1fr;
+margin-top: 20px;
+margin-right: 50px;
+
+}
+
+.profile-bar-image {
+
+display: grid;
+
+}
+
+.profile-bar-image img {
+
+margin-left: 80px;
+width: 60px;
+height: 60px;
+border-radius: 70px;
+justify-self: center;
+align-self: center;
+
+} 
+
+.profile-bar-name {
+
+margin-left: 20px;
+
+}
+
+p + p {
+
+font-weight: 700;
+font-size: larger;
+
+}
+
+.profile-bar-buttons {
+
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+gap: 20px;
+height: 30px;
+
+
+}
+
+.profile-bar-buttons button {
+
+background-color: #1992D4;
+color: white;
+border-radius: 50px;
+border: none;
+
+}
+
+.profile-bar-buttons {
+
+align-self: center;
+
+}
+
+.header {
+
+box-shadow: 0px 2px 4px silver;
+
+}
+
+
 
 
 
