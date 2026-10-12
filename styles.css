@@ -158,6 +158,7 @@ grid-template-columns: auto 3fr 1fr;
 margin-top: 20px;
 margin-right: 50px;
 
+
 }
 
 .profile-bar-image {
@@ -218,7 +219,9 @@ align-self: center;
 
 .header {
 
-box-shadow: 0px 2px 4px silver;
+box-shadow: 0px 2px 6px silver;
+z-index: 1;
+
 
 }
 
@@ -227,6 +230,7 @@ box-shadow: 0px 2px 4px silver;
 
 display: grid;
 grid-template-columns: 1fr 1fr 1fr;
+background-color: #E2E8F0;
 
 }
 
@@ -243,6 +247,7 @@ margin-left: 15px;
 
 display: grid;
 grid-column: 2 / 4;
+
 
 }
 
@@ -263,6 +268,8 @@ box-shadow: 2px 2px 5px silver;
 border-radius: 10px;
 border-left: 8px solid #FBBF24;
 padding-left: 15px;
+background-color: #FFFFFF;
+
 
 }
 
@@ -300,6 +307,8 @@ height: 25px;
 
 display: grid;
 grid-template-columns: 3fr 1fr;
+background-color: #E2E8F0;
+
 
 }
 
@@ -316,6 +325,8 @@ box-shadow: 2px 2px 5px silver;
 border-radius: 10px;
 padding-left: 15px;
 padding-right: 10px;
+background-color: #FFFFFF;
+
 
 }
 
@@ -329,6 +340,69 @@ padding: 0;
 .announcement-card {
 
 border-bottom: 1px solid #D3D3D3;
+background-color: #FFFFFF;
+
+
+}
+
+.trending-card img {
+
+width: 40px;
+height: 40px;
+border-radius: 20px;
+align-self: center;
+justify-self: center;
+
+}
+
+.trending-card {
+
+display: grid;
+margin-top: 0px;
+grid-template-columns: 1fr 2fr;
+border-radius: 10px;
+margin-left: 15px;
+height: 300px;
+width: 280px;
+box-shadow: 2px 2px 5px silver;
+background-color: #FFFFFF;
+
+
+
+}
+
+.trending-names p + p {
+
+font-weight: 100;
+font-size: small;
+
+}
+
+.trending-names > p {
+
+margin-bottom: 0;
+margin-top: 0;
+
+
+
+}
+
+.trending-names {
+
+align-self: center;
+
+
+}
+
+.trending {
+
+display: grid;
+grid-column: 1 / 4;
+margin-left: 15px;
+margin-top: 15px;
+font-size: larger;
+font-weight: 700;
+
 
 }
 
